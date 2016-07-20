@@ -1,0 +1,21 @@
+$fuente-titulos: Crimson, Times New Roman;
+$fuente-subtitulos:Karla, sans-serif;
+$fuente-texto: Source sans, sans-serif;
+@mixin redondear($radio){
+    -webkit-border-radius:$radio;
+    -ms-border-radius:$radio;
+    -moz-border-radius:$radio;
+    -o-border-radius:$radio;
+    border-radius:$radio;
+}
+$color-destacado:#5595B8;
+$color-oscuro: #000000;
+$color-claro: #A7A7A7;
+
+@mixin transformacion($transforms, $transform2) {
+       -moz-transform: translate($transforms, $transform2);
+         -o-transform: translate($transforms, $transform2);
+        -ms-transform: translate($transforms, $transform2);
+   		 -webkit-transform: translate($transforms, $transform2);
+         transform: translate($transforms, $transform2);
+}

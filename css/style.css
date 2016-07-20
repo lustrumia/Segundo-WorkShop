@@ -1,0 +1,483 @@
+@import "https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700|Karla:400,700|Source+Sans+Pro:300,400,600";
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.contenedor1 {
+  max-width: 85%;
+  margin: 0 auto; }
+
+/*nav*/
+nav {
+  border-bottom: 0.5px solid #A7A7A7;
+  padding-bottom: 20px; }
+
+.arriba {
+  padding: 30px 0px;
+  text-align: center; }
+  .arriba .searching {
+    float: left;
+    padding-top: 15px; }
+    .arriba .searching input {
+      text-decoration: none;
+      border: 0px;
+      width: 100px;
+      font-family: Karla, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding-left: 5px;
+      font-weight: bold; }
+  .arriba img {
+    float: center;
+    width: 125px; }
+  .arriba .botones {
+    float: right;
+    padding-top: 15px; }
+    .arriba .botones button {
+      text-decoration: none;
+      border: none;
+      background: white;
+      font-family: Karla, sans-serif;
+      font-size: 15px;
+      font-weight: bold; }
+      .arriba .botones button span {
+        padding-right: 4px; }
+    .arriba .botones .ultimo {
+      border: 1px solid #A7A7A7;
+      -webkit-border-radius: 2px;
+      -ms-border-radius: 2px;
+      -moz-border-radius: 2px;
+      -o-border-radius: 2px;
+      border-radius: 2px; }
+
+/*------- Nav Lista----------*/
+.contenedor-general {
+  max-width: 100%;
+  border-bottom: 0.5px solid #A7A7A7;
+  overflow: hidden; }
+
+.lista {
+  text-align: center;
+  font-family: Karla, sans-serif;
+  padding: 15px 0px;
+  margin: 0 auto;
+  width: 70%; }
+  .lista ul {
+    text-align: center;
+    text-decoration: none;
+    color: #000000; }
+    .lista ul li {
+      padding: 0px 20px;
+      display: inline-block; }
+      .lista ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 15px; }
+
+/*------- Lista costado----------*/
+aside {
+  max-width: 20%;
+  float: left;
+  padding-top: 30px;
+  line-height: 40px;
+  font-family: Source sans, sans-serif; }
+  aside h1 {
+    color: #A7A7A7;
+    font-family: Karla, sans-serif;
+    letter-spacing: 2px; }
+  aside .azul {
+    color: #5595B8;
+    font-weight: bold; }
+    aside .azul span {
+      padding-left: 10px;
+      font-weight: bold; }
+    aside .azul li {
+      color: #000000;
+      font-weight: 400;
+      padding-left: 20px; }
+  aside .ultimo {
+    font-weight: bold; }
+    aside .ultimo li {
+      font-weight: normal;
+      padding-left: 20px; }
+
+/*------- Contenido ----------*/
+.contenedor2 {
+  max-width: 75%;
+  margin: 0 auto;
+  float: right; }
+
+.carro {
+  color: white;
+  margin: 40px 0px;
+  position: relative; }
+  .carro img {
+    max-width: 100%; }
+  .carro .texto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-shadow: 1px 1px 1px gray;
+    -moz-transform: translate(15%, -70%);
+    -o-transform: translate(15%, -70%);
+    -ms-transform: translate(15%, -70%);
+    -webkit-transform: translate(15%, -70%);
+    transform: translate(15%, -70%); }
+    .carro .texto h2, .carro .texto h4 {
+      text-transform: uppercase;
+      font-family: Karla, sans-serif;
+      letter-spacing: 3px; }
+    .carro .texto h1 {
+      font-family: Crimson, Times New Roman;
+      font-size: 50px; }
+
+.fotos, .fotos2 {
+  max-width: 48%;
+  display: inline-block;
+  margin: 0 auto;
+  position: relative;
+  color: white; }
+  .fotos .texto, .fotos2 .texto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -moz-transform: translate(20%, 80%);
+    -o-transform: translate(20%, 80%);
+    -ms-transform: translate(20%, 80%);
+    -webkit-transform: translate(20%, 80%);
+    transform: translate(20%, 80%); }
+    .fotos .texto h4, .fotos2 .texto h4 {
+      text-transform: uppercase;
+      font-family: Karla, sans-serif;
+      letter-spacing: 3px;
+      font-size: 12px;
+      line-height: 50px; }
+    .fotos .texto h1, .fotos2 .texto h1 {
+      font-family: Crimson, Times New Roman;
+      font-size: 35px; }
+  .fotos img, .fotos2 img {
+    max-width: 100%; }
+
+.fotos2 {
+  float: right; }
+
+/*------- anteojos ----------*/
+.anteojos {
+  margin-top: 60px; }
+  .anteojos h1 {
+    text-align: center;
+    color: #A7A7A7;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-family: Karla, sans-serif; }
+  .anteojos ul {
+    margin-top: 30px; }
+    .anteojos ul li {
+      max-width: 24.6%;
+      display: inline-block;
+      text-align: center;
+      line-height: 30px;
+      font-size: 15px; }
+      .anteojos ul li img {
+        max-width: 100%; }
+      .anteojos ul li h1 {
+        color: #5595B8;
+        font-size: 12px;
+        letter-spacing: 0.5px; }
+      .anteojos ul li h2 {
+        font-family: Crimson, Times New Roman;
+        font-weight: bolder; }
+      .anteojos ul li p {
+        color: #A7A7A7;
+        font-family: Source sans, sans-serif;
+        font-size: 12px;
+        letter-spacing: 0.5px; }
+
+/*------- anteojo y texto ----------*/
+.welcome {
+  margin: 40px auto; }
+  .welcome .parrafo {
+    max-width: 50%;
+    display: inline-block;
+    vertical-align: top; }
+    .welcome .parrafo h2 {
+      font-family: Crimson, Times New Roman;
+      font-weight: bold;
+      font-size: 20px; }
+    .welcome .parrafo p {
+      color: #A7A7A7;
+      font-family: Source sans, sans-serif;
+      padding-top: 20px;
+      font-size: 15px;
+      line-height: 22px; }
+  .welcome .imagen {
+    display: inline-block;
+    max-width: 49%; }
+    .welcome .imagen img {
+      max-width: 100%; }
+
+/*------- imagen-texto ----------*/
+.vieja {
+  color: white;
+  margin: 40px 0px;
+  position: relative; }
+  .vieja img {
+    max-width: 100%; }
+  .vieja .texto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    -moz-transform: translate(0%, -75%);
+    -o-transform: translate(0%, -75%);
+    -ms-transform: translate(0%, -75%);
+    -webkit-transform: translate(0%, -75%);
+    transform: translate(0%, -75%); }
+    .vieja .texto h2, .vieja .texto h4 {
+      text-transform: uppercase;
+      font-family: Karla, sans-serif;
+      letter-spacing: 3px; }
+    .vieja .texto h1 {
+      font-family: Crimson, Times New Roman;
+      font-size: 50px; }
+
+/*------- lista fotos ----------*/
+.news {
+  margin: 20px auto; }
+  .news h1 {
+    text-align: center;
+    color: #A7A7A7;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-family: Karla, sans-serif; }
+  .news ul {
+    overflow: hidden;
+    margin-top: 30px; }
+    .news ul .columna {
+      width: 31%;
+      float: left;
+      margin-right: 3%; }
+      .news ul .columna:last-child {
+        margin-right: 0; }
+      .news ul .columna img {
+        max-width: 100%; }
+      .news ul .columna h2 {
+        font-family: Crimson, Times New Roman;
+        font-weight: bold;
+        color: #000000;
+        margin-bottom: 20px;
+        text-transform: unset;
+        letter-spacing: none;
+        font-size: 18px; }
+      .news ul .columna p {
+        margin: 20px 0px;
+        color: #A7A7A7;
+        font-family: Source sans, sans-serif;
+        font-size: 15px;
+        line-height: 20px; }
+      .news ul .columna a {
+        text-decoration: none;
+        color: #5595B8;
+        text-transform: uppercase;
+        font-family: Karla, sans-serif;
+        font-size: 14px;
+        font-weight: bold; }
+
+/*------- collections ----------*/
+.collections {
+  margin: 60px auto; }
+  .collections h1 {
+    text-align: center;
+    color: #A7A7A7;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+    font-family: Karla, sans-serif; }
+  .collections .columna {
+    width: 31%;
+    margin-right: 2%;
+    display: inline-block;
+    margin-top: 40px; }
+    .collections .columna.img1 {
+      background-image: url("../assets/fondo1.jpg");
+      background-size: cover; }
+    .collections .columna.img2 {
+      background-image: url("../assets/fondo2.jpg");
+      background-size: cover;
+      background-position: center; }
+    .collections .columna.img3 {
+      background-image: url("../assets/fondo3.jpg");
+      background-size: cover; }
+    .collections .columna.img4 {
+      background-color: #B7BCC2; }
+    .collections .columna.img5 {
+      background-color: #94A0B0; }
+    .collections .columna.img6 {
+      background-color: #D1C4B4; }
+    .collections .columna h2 {
+      padding: 100px 0px;
+      font-size: 20px;
+      color: white;
+      font-family: Crimson, Times New Roman;
+      text-align: center; }
+    .collections .columna h4 {
+      padding-top: 5px;
+      font-size: 25px;
+      color: white;
+      font-family: Crimson, Times New Roman;
+      text-align: center;
+      text-transform: uppercase; }
+    .collections .columna h3 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      font-family: Karla, sans-serif; }
+    .collections .columna h5 {
+      margin-top: 20px;
+      margin-bottom: 40px;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      font-family: Karla, sans-serif; }
+
+/*------footer-----*/
+footer {
+  margin-top: 60px;
+  color: #000000;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+  border-bottom: 0.5px solid #A7A7A7;
+  overflow: hidden; }
+  footer h2 {
+    font-family: Karla, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 20px; }
+  footer .listas {
+    float: left;
+    font-family: Source sans, sans-serif;
+    width: 30%; }
+    footer .listas a {
+      text-decoration: none;
+      line-height: 30px;
+      font-size: 12px;
+      color: #333C4B; }
+    footer .listas .navigate {
+      float: left;
+      margin-right: 50px; }
+    footer .listas .support {
+      float: right;
+      margin-right: 50px; }
+  footer .twitter {
+    float: left;
+    font-family: Source sans, sans-serif;
+    width: 30%; }
+    footer .twitter h2 {
+      font-family: Karla, sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 20px; }
+    footer .twitter h1 {
+      font-family: Crimson, Times New Roman;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px; }
+    footer .twitter .user {
+      margin-bottom: 20px; }
+    footer .twitter p {
+      font-family: Source sans, sans-serif;
+      font-size: 12px;
+      line-height: 20px;
+      color: #333C4B; }
+      footer .twitter p span {
+        color: #5595B8; }
+    footer .twitter .despues::after {
+      content: url("../assets/emoji.png");
+      float: right; }
+    footer .twitter .bigger {
+      width: 15%;
+      -webkit-filter: hue-rotate(50deg);
+      filter: hue-rotate(50deg);
+      -webkit-filter: brightness(60%);
+      filter: brightness(60%);
+      float: left;
+      margin-right: 20px; }
+    footer .twitter .enlace {
+      margin-top: 60px; }
+    footer .twitter .posted {
+      font-family: Karla, sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 12px;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      color: #A7A7A7; }
+  footer .social {
+    width: 30%;
+    float: right; }
+    footer .social .newsletter h2 {
+      margin-bottom: 30px; }
+    footer .social .newsletter input {
+      font-family: Source sans, sans-serif;
+      width: 95%;
+      height: 30px;
+      padding-left: 10px;
+      margin-bottom: 40px; }
+    footer .social .connect a {
+      text-decoration: none;
+      color: #3B4859;
+      font-size: 30px;
+      margin-right: 20px; }
+    footer .social .derechos {
+      color: #A7A7A7;
+      font-family: Source sans, sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
